@@ -1,0 +1,37 @@
+{
+  "name": "yuankui@sleep",
+  "version": "2.0.3",
+  "description": "a sleep works with promise",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npm version patch && tsc",
+    "deploy": "yarn build && npm publish",
+    "test": "jest",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha test/*.js -- -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuankui/yuankui-sleep"
+  },
+  "keywords": [
+      "sleep",
+      "promise",
+      "typescript"
+  ],
+  "author": "yuankui <yuankui64@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuankui/yuankui-sleep/issues"
+  },
+  "homepage": "https://github.com/yuankui/yuankui-sleep",
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^3.3.0",
+    "typescript": "^3.2.1"
+  },
+  "dependencies": {
+  }
+}
