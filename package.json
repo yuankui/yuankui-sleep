@@ -1,6 +1,6 @@
 {
   "name": "yuankui-sleep",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a sleep works with promise",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,9 +15,9 @@
     "url": "https://github.com/yuankui/yuankui-sleep"
   },
   "keywords": [
-      "sleep",
-      "promise",
-      "typescript"
+    "sleep",
+    "promise",
+    "typescript"
   ],
   "author": "yuankui <yuankui64@gmail.com>",
   "license": "MIT",
@@ -32,6 +32,5 @@
     "ts-node": "^3.3.0",
     "typescript": "^3.2.1"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
